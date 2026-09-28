@@ -1,0 +1,8 @@
+Fase 1
+
+1 inicies aquí en este proyecto un proyect node
+2 el usuario tiene como campos: id, nombres, apellidos, correo, telefono
+3 crear un GET que responda un json que responda con 200 2 registros de usuario quemados
+4 crear un POST donde su request sean los datos del usuario del punto 2 y responda con 201 un json con success true y el registro que se mando en el request
+6 crear un PUT con parametro id (usuarios/{id}) y dentro se mande un request igual al del post (averiguar el HTTP code de esa respuesta) y respuesta como la del post, simulando una actualización
+7 crear un DELETE con parametro id (usuarios/{id}) y que responda (averiguar el HTTP CODE del delete, creo que es 203) success true
